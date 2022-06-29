@@ -1,0 +1,19 @@
+.button {
+    background-color: gray;
+    width: 300px;
+    height: 100px;
+    border-bottom: 10px;
+    text-align:center;
+
+    color:grey;
+}
+ 
+
+.button:hover {
+    background-color: green;
+    color:white;
+    }
+
+.button:hover {
+    color:white;
+}
