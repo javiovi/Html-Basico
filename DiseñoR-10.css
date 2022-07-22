@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    font-size: 1rem;
+}
+
+.contenedor {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    color: white;
+    padding: 5px;
+    gap:5px;
+
+}
+.main {
+    background-color: rgb(89, 170, 170);
+    padding: 5px;
+    flex-grow: 2;
+}
+
+@media (max-width: 640px) {
+    body {
+        flex-direction: column-reverse;
+    }
+    .contenedor {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
